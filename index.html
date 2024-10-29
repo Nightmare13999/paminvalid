@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="top-nav">
+            <div class="nav-left">
+                <div class="logo">Portfolio</div>
+                <div class="location">Location</div>
+            </div>
+            <div class="search-bar">
+                <select>
+                    <option>All</option>
+                    <option>Home</option>
+                    <option>Information</option>
+                    <option>Resume</option>
+                </select>
+                <input type="text" placeholder="Search...">
+                <button class="search-button">🔍</button>
+            </div>
+            <div class="nav-right">
+                <button>EN</button>
+                <button>Contact</button>
+            </div>
+        </div>
+        
+        <div class="secondary-nav">
+            <button class="all-button" onclick="toggleMenu()">
+                ☰ All
+            </button>
+            <a href="index.html">Home</a>
+            <a href="information.html">Information</a>
+            <a href="resume.html">Resume</a>
+        </div>
+
+        <!-- Dropdown Menu -->
+        <div id="menuDropdown" class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="information.html">Information</a>
+            <a href="resume.html">Resume</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="profile-section">
+            <div class="profile-image">
+                <!-- Replace with your image -->
+                <img src="img/profile/1.jpg" alt="Profile Picture">
+            </div>
+            <div class="profile-info">
+                <h1 id="profileName">Loading...</h1>
+                <p id="shortDescription">Loading...</p>
+                <button onclick="showFullDescription()" class="more-button">More</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal for full description -->
+    <div id="descriptionModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2>Description</h2>
+            <p id="fullDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

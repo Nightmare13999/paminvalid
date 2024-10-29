@@ -1,0 +1,25 @@
+{
+    "Profile": {
+        "Name": "Piti Srisongkram",
+        "Nickname": "Pam",
+        "Girlfriend": "null",
+        "Profession": "back-end developer",
+        "Location": "Ratchaburi",
+        "Email": "piti.sris@mail.kmutt.ac.th",
+        "Instagram": "pam_24mb"
+    },
+    "Graduation": {
+        "Degree": "first-year Bachelor",
+        "Major": "Computer Engineering",
+        "University": "King Mongkut's University of Technology Thonburi"
+    },
+    "Family": {
+        "Parents": "Not Gonna Told U!",
+        "Siblings": "privency"
+    },
+    "Hobbies": {
+        "Reading": "Gain-Passion books",
+        "Traveling": "Exploring new destinations",
+        "Sports": "Basketball Climbing and Bouldering"
+    }
+}

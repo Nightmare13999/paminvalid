@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Navigation (same as index.html) -->
+    <nav class="main-nav">
+        <div class="top-nav">
+            <div class="nav-left">
+                <div class="logo">Portfolio</div>
+            </div>
+            <div class="search-bar">
+                <select>
+                    <option>All</option>
+                    <option>Home</option>
+                    <option>Information</option>
+                    <option>Resume</option>
+                </select>
+                <input type="text" placeholder="Search...">
+                <button class="search-button">🔍</button>
+            </div>
+            <div class="nav-right">
+                <button>EN</button>
+                <button>Contact</button>
+            </div>
+        </div>
+        
+        <div class="secondary-nav">
+            <button class="all-button" onclick="toggleMenu()">
+                ☰ All
+            </button>
+            <a href="index.html">Home</a>
+            <a href="information.html">Information</a>
+            <a href="resume.html">Resume</a>
+        </div>
+
+        <!-- Dropdown Menu -->
+        <div id="menuDropdown" class="dropdown-menu">
+            <a href="index.html">Home</a>
+            <a href="information.html">Information</a>
+            <a href="resume.html">Resume</a>
+        </div>
+    </nav>
+
+    <!-- Information Content -->
+    <main class="information-container">
+        <!-- Topics will be dynamically loaded here -->
+        <div id="informationContent"></div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="information.js"></script>
+</body>
+</html>

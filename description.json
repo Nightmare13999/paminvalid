@@ -1,0 +1,10 @@
+{
+  "OwnAI": {
+      "short_description": "Developed a basic AI model using TensorFlow Keras and integrated it with Discord.",
+      "full_description": "I created an AI model named MyOwnAI to gain a practical understanding of AI development. Initially, I pre-trained the model using simple custom data, which, while not perfect, provided substantial learning experience. The project was developed using TensorFlow Keras on Google Colab and later deployed on Discord by connecting with a bot via the API token. This project was instrumental in honing my AI development skills."
+    },
+  "wOof": {
+      "short_description": "Contributed as a back-end developer in the wOof game project, focusing on data mapping and API development.",
+      "full_description": "As part of the wOof game project, I took on the role of a back-end developer. My responsibilities included designing data mapping strategies and building the database system. Additionally, I developed APIs using MongoDB to facilitate seamless data exchange with the game's front-end. This project was pivotal in my professional growth, deepening my expertise in back-end development, and enhancing my love for game development."
+  }
+}
